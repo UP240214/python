@@ -90,6 +90,47 @@ print("The slope is: ", slope)
 print("")
 ###################################################################################
 #Program 10
+print("")
+###################################################################################
+#Program 11
+print("")
+def quadratic_function(x):
+    return x**2 + 6*x + 9
+
+# Encontrar el valor de x cuando y = 0
+# Resolviendo x^2 + 6x + 9 = 0
+import sympy as sp
+
+x = sp.Symbol('x')
+solution = sp.solve(x**2 + 6*x + 9, x)
+
+print("Soluciones donde y = 0:", solution)
+
+# Probar diferentes valores de x
+test_values = [-10, -5, -3, 0, 2, 5]
+for val in test_values:
+    print(f"Para x = {val}, y = {quadratic_function(val)}")
+print("")
+#####################################################################################
+#Program 11
+print("")
+
+word1 = "python"
+word2 = "dragon"
+
+dist1 = len(word1)
+dist2 = len(word2)
+
+
+print(f"Length of '{word1}':", dist1)
+print(f"Length of '{word2}':", dist2)
+
+
+comparasionFalsa = dist1 > dist2 and dist1 < dist2
+print("comparacion falsa:", comparasionFalsa)
+
+
+
 
 
 
