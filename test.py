@@ -94,22 +94,9 @@ print("")
 ###################################################################################
 #Program 11
 print("")
-def quadratic_function(x):
-    return x**2 + 6*x + 9
-
-# Encontrar el valor de x cuando y = 0
-# Resolviendo x^2 + 6x + 9 = 0
-import sympy as sp
-
-x = sp.Symbol('x')
-solution = sp.solve(x**2 + 6*x + 9, x)
-
-print("Soluciones donde y = 0:", solution)
-
-# Probar diferentes valores de x
-test_values = [-10, -5, -3, 0, 2, 5]
-for val in test_values:
-    print(f"Para x = {val}, y = {quadratic_function(val)}")
+vax= int(input("ingresa el valor de x "))
+vay= (vax**2 +(6* vax) + 9)
+print("el valor de la variable y es igual a ", "|", vay, "|")
 print("")
 #####################################################################################
 #Program 12
@@ -131,6 +118,77 @@ print("comparacion falsa:", comparasionFalsa)
 ########################################################################################
 #Program 13
 print("")
+word1 = "python"
+word2 = "dragon"
+if "on" in word1 and "on" in word2:
+    print("'on' se encuentra en ambas palabras.")
+else:
+    print("'on' no se encuentra en ambas palabras.")
+print("")
+######################################################################################
+#Program 14
+wordd= "I hope this course is not full of jargon"
+if "jargon" in wordd:
+    print("Jargon se encuentra en la oracion")
+else:
+    print("jargon no se encuentra en la oracion")
+print("")
+######################################################################################
+#Program 15
+print("")
+word1 = "python"
+word2 = "dragon"
+if "on" in word1 and "on" in word2:
+    print("'on' no se encuentra en ambas palabras.")
+else:
+    print("'on' no se encuentra en ambas palabras.")
+print("")
+######################################################################################
+#Program 16
+print("")
+word16= "python"
+dist16= len(word16)
+print(float(dist16))
+print(str(dist16))
+print("")
+#######################################################################################
+#Program 17
+num= int(input("ingresa un numero: "))
+if num % 4 ==0:
+ print("el numero es par")
+else:  
+   print("el numero es impar")
+print("")
+ #######################################################################################
+#Program 18
+#7/3=2.77
+num1= 7
+num2= 3
+div= num1/ num2
+
+if div== 2.7:
+ print("es correcta la suposicion")
+else:
+ print("es incorrecta la suposicion, en realidad es: " , div)
+print("")
+#######################################################################################
+#Program 19
+if type("10")==type(10):
+ print("es verdadero son iguales")
+else: 
+   print("es falso, no son iguales")
+print("")
+#######################################################################################
+#Program 20
+if float('9.8')==type(10):
+    print("es verdadero son iguales")
+else: 
+   print("es falso, no son iguales")
+print("")
+
+
+
+
 
 
 
