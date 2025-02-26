@@ -178,13 +178,40 @@ if type("10")==type(10):
 else: 
    print("es falso, no son iguales")
 print("")
-#######################################################################################
+##########################################################################################
 #Program 20
 if float('9.8')==type(10):
     print("es verdadero son iguales")
 else: 
    print("es falso, no son iguales")
 print("")
+#########################################################################################
+#Program 21
+print("bienvenido")
+tiempo=int(input("ingresa las horas que has estado: "))
+print("la tarifa por hora es de $17 por hora")
+tarifaTotal= tiempo * 17
+print("el total a pagar es de: " , tarifaTotal)
+print("")
+#########################################################################################
+#Program 22
+edad=int(input("Escriba su edad: "))
+segundosHora= 3600
+segundosDia= segundosHora * 24
+SegundosMes= segundosDia * 30
+segundosAño= SegundosMes * 12
+Total= segundosAño * edad
+print(Total)
+print("")
+#########################################################################################
+#Program 23
+print("1 1 1 1 1")
+print("2 1 2 4 8")
+print("3 1 3 9 27")
+print("4 1 4 16 64")
+print("5 1 5 24 125")
+print("")
+#########################################################################################
 
 
 
