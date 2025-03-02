@@ -37,10 +37,25 @@ print("")
 #################################################################################
 #Program 6
 word5= "company"
-minn= upper(word5)
-print(f"Uppercase of '{word5}':", minn)
+print("Texto en mayúsculas:", word5.upper())
 print("")
-
-
-
+#################################################################################
+#Program 7
+word5= "company"
+print("Texto en mayúsculas:", word5.lower())
+print("")
+#################################################################################
+#Program 8
+sentence= "Coding for all"
+print("capitalize():", sentence.capitalize())  # Primera letra en mayúscula
+print("title():", sentence.title())  # Primera letra de cada palabra en mayúscula
+print("swapcase():", sentence.swapcase())  # Invierte mayúsculas y minúsculas
+print("")
+#################################################################################
+#Program 9
+sentence= "Coding for all"
+print("Sin la primera palabra:", sentence[sentence.find(" ") + 1:])
+print("")
+#################################################################################
+#Program 10
 
