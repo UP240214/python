@@ -219,3 +219,42 @@ print(str312.isidentifier())
 print("")
 ########################################################################################
 #Program 32
+str32 = ['Django', 'Flask', 'Bottle', 'Pyramid', 'Falcon']
+str32result = ' # ' .join(str32)
+print(str32result)
+print("")
+########################################################################################
+#Program 33
+str33 = "I am enjoying this challenge.\nI just wonder what is next."
+print(str33)
+print("")
+########################################################################################
+#Program 34
+str34 = "Name      Age     Country   City.\nAsabeneh  250     Finland   Helsinki"
+print(str34)
+print("")
+########################################################################################
+#Program 35
+radio = 10
+area = 3.14 * radio ** 2
+
+resultado35 = f"El area del circulo con radio de {radio} is {area} metros cuadrados."
+print(resultado35)
+
+########################################################################################
+#Program 36
+a, b = 8, 6
+
+a, b = 8, 6
+
+output = (
+    f"{a} + {b} = {a + b}\n"
+    f"{a} - {b} = {a - b}\n"
+    f"{a} * {b} = {a * b}\n"
+    f"{a} / {b} = {a / b:.2f}\n"
+    f"{a} % {b} = {a % b}\n"
+    f"{a} // {b} = {a // b}\n"
+    f"{a} ** {b} = {a ** b}"
+     )
+print (output)
+#########################################################################################
