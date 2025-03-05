@@ -132,7 +132,76 @@ word20 = "Coding For All"
 print(word20.find("F"))
 print("")
 ##################################################################################
-
-
-
-
+#Program 22
+word22 = "Coding For All"
+rfindwrd = word22.rfind("l")
+print(rfindwrd)
+print("")
+##################################################################################
+#Program 23
+word23= "You cannot end a sentence with because because because is a conjunction"
+indexword= word23.index("because")
+print(indexword)
+print("")
+##################################################################################
+#Program 24
+word24 = "You cannot end a sentence with because because because is a conjunction"
+rindeswrd = word24.rindex("because")
+print(rindeswrd)
+print("")
+##################################################################################
+#Program 25
+word25 = "You cannot end a sentence with because because because is a conjunction"
+start = word25.find("because because because")
+lenwrd= start + len("because because because")
+print("Start", start)
+print("final: ", lenwrd)
+newStr = word25[0:start] + word25[lenwrd:]
+print(newStr)
+print("")
+###################################################################################
+#Program 26
+word26 = "You cannot end a sentence with because because because is a conjunction"
+start26 = word26.find("because")
+print("POSITION:")
+print(start26)
+final26 = start + len("because")
+print(final26)
+newstr26= word26[0:31] + word26[38:]
+print(newstr26)
+print("")
+#####################################################################################
+#Program 27
+word25 = "You cannot end a sentence with because because because is a conjunction"
+start = word25.find("because because because")
+lenwrd= start + len("because because because")
+print("Start", start)
+print("final: ", lenwrd)
+newStr = word25[0:start] + word25[lenwrd:]
+print(newStr)
+print("")
+######################################################################################
+#Program 28
+str28 = "Coding For All"
+startstr26 = str28.find("Coding")
+print(startstr26)
+if startstr26 == 0:
+ print("es correcto")
+else:
+ print("Es incorrecto")
+print("")
+######################################################################################
+#Program 29
+str28 = "Coding For All"
+startstr26 = str28.find("coding")
+print(startstr26)
+if startstr26 == 0:
+ print("es correcto")
+else:
+ print("Es incorrecto")
+print("")
+######################################################################################
+#Program 30
+str30 = " Coding For All "
+start30 = str30.find(" ")
+print(start30)
