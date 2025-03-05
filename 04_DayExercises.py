@@ -205,3 +205,17 @@ print("")
 str30 = " Coding For All "
 start30 = str30.find(" ")
 print(start30)
+final30 = start30 + len("Coding For All")
+print(final30)
+newstr30 = str30[1:16]
+print(newstr30)
+print("")
+#######################################################################################
+#Program 31
+str31 = "30DaysOfPython"
+print (str31.isidentifier())
+str312 = "thirty_days_of_python"
+print(str312.isidentifier())
+print("")
+########################################################################################
+#Program 32
